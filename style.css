@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #7b9686;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Arrow {
+  cursor: pointer;
+}
+.SliderImage img {
+  height: 100%;
+  width: 100%;
+  
+}
+.SliderImage {
+  display: flex;
+  transition: all 1s ease;
+}
+.ImageFrame {
+  height: 500px;
+  width: 800px;
+  overflow: hidden;
+}
